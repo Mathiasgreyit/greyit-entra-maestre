@@ -1,5 +1,5 @@
 Describe "ContosoEntraConfig" -Tag "Privilege", "GreyIT" {
-    It "Check 'Contoso MFA Users' group" -Tag 'Severity:Low' {
+    It "GR.2001 'Contoso MFA Users' group" -Tag 'Severity:Low' {
 
         $groupId = "fb8cffe9-66a0-49d1-8e92-4ff9c3b306b0"
 
